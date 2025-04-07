@@ -47,5 +47,5 @@ execute if entity @s[nbt={data:{chunk_loader_tier:"netherite",copper_grate_state
 execute as @e[type=item,limit=1,sort=nearest,distance=..1] at @s if items entity @s container.0 #chunk_loader:chunk_loader_block run kill @s
 
 playsound block.beacon.deactivate block @a ~ ~ ~ 1 1
-kill @e[type=armor_stand,limit=1,sort=nearest,distance=..1,nbt={data:{chunk_loader_animation:1b}}]
+kill @e[type=armor_stand,limit=1,sort=nearest,nbt={data:{chunk_loader_animation:1b}}]
 kill @s
