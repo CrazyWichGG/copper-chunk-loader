@@ -21,7 +21,7 @@
                 "rarity": "epic",
                 "lore": [
                   [{"text": "Tier: ","color": "gray","italic": false}, {"text": "Netherite", "color": "light_purple", "italic": false}],
-                  [{"text": "Range: ","color": "gray","italic": false}, {"text": "9x9 Chunk", "color": "gray", "italic": false}]
+                  [{"text": "Range: ","color": "gray","italic": false}, {"text": "11x11 Chunk", "color": "gray", "italic": false}]
                 ],
                 "damage_resistant": {
                   "types": "#is_fire"
