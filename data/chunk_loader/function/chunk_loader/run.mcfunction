@@ -1,0 +1,1 @@
+execute as @e[type=glow_item_frame,nbt={data:{chunk_loader:1b}}] at @s run function chunk_loader:chunk_loader/place

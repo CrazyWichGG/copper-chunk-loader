@@ -1,0 +1,7 @@
+function chunk_loader:scoreboard
+function chunk_loader:chunk_loader/run
+function chunk_loader:chunk_loader/controller
+function chunk_loader:chunk_checker/holding
+function chunk_loader:chunk_checker/replace_used
+function chunk_loader:chunk_loader/animation
+function chunk_loader:chunk_loader/block_state
