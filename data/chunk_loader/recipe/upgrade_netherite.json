@@ -28,7 +28,7 @@
       "rarity": "epic",
       "lore": [
         [{"text": "Tier: ","color": "gray","italic": false}, {"text": "Netherite", "color": "light_purple", "italic": false}],
-        [{"text": "Range: ","color": "gray","italic": false}, {"text": "11x11 Chunk", "color": "gray", "italic": false}],
+        [{"text": "Range: ","color": "gray","italic": false}, {"text": "11x11 Chunks", "color": "gray", "italic": false}],
         [{"text":""}],
         [{"text": "Press ","color": "gray","italic": false}, {"keybind": "key.use","color": "yellow","italic": false}, {"text": " on Chunk Loader to upgrade.","color": "gray","italic": false}]
       ],

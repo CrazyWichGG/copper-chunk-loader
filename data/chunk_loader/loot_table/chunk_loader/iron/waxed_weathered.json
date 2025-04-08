@@ -21,7 +21,7 @@
                 "rarity": "rare",
                 "lore": [
                   [{"text": "Tier: ","color": "gray","italic": false}, {"text": "Iron", "color": "white", "italic": false}],
-                  [{"text": "Range: ","color": "gray","italic": false}, {"text": "5x5 Chunk", "color": "gray", "italic": false}]
+                  [{"text": "Range: ","color": "gray","italic": false}, {"text": "5x5 Chunks", "color": "gray", "italic": false}]
                 ],
                 "entity_data": {
                   "id": "glow_item_frame",
