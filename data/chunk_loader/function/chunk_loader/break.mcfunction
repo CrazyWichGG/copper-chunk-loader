@@ -45,5 +45,6 @@ execute if entity @s[nbt={data:{chunk_loader_tier:"netherite",copper_grate_state
 execute if entity @s[nbt={data:{chunk_loader_tier:"netherite",copper_grate_state:"waxed_oxidized"}}] as @e[type=item,limit=1,sort=nearest,distance=..2,nbt={Item:{id:"minecraft:waxed_oxidized_copper_grate"}}] at @s run loot replace entity @s contents loot chunk_loader:chunk_loader/netherite/waxed_oxidized
 
 playsound block.beacon.deactivate block @a ~ ~ ~ 1 1
+kill @e[type=interaction,limit=1,sort=nearest,distance=..1,nbt={data:{chunk_loader_interaction:1b}}]
 kill @e[type=armor_stand,limit=1,sort=nearest,nbt={data:{chunk_loader_animation:1b}}]
 kill @s

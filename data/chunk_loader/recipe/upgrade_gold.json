@@ -1,0 +1,44 @@
+{
+  "type": "crafting_shaped",
+  "category": "redstone",
+  "group": "chunk_loader_upgrade",
+  "show_notification": true,
+  "pattern": [
+    "IEI",
+    "BPB",
+    "IBI"
+  ],
+  "key": {
+    "I": "copper_ingot",
+    "B": "gold_block",
+    "E": "ender_pearl",
+    "P": "paper"
+  },
+  "result": {
+    "id": "music_disc_11",
+    "components": {
+      "custom_data": {
+        "chunk_loader_upgrade": true,
+        "chunk_loader_upgrade_tier": "gold",
+        "tiers_usable_on": ["copper","iron"]
+      },
+      "item_model": "gold_ingot",
+      "enchantment_glint_override": true,
+      "item_name": {"text": "Tier Upgrade (Gold)"},
+      "rarity": "rare",
+      "lore": [
+        [{"text": "Tier: ","color": "gray","italic": false}, {"text": "Gold", "color": "yellow", "italic": false}],
+        [{"text": "Range: ","color": "gray","italic": false}, {"text": "7x7 Chunk", "color": "gray", "italic": false}],
+        [{"text":""}],
+        [{"text": "Press ","color": "gray","italic": false}, {"keybind": "key.use","color": "yellow","italic": false}, {"text": " on Chunk Loader to upgrade.","color": "gray","italic": false}]
+      ],
+      "max_stack_size": 64,
+      "!jukebox_playable": {},
+      "tooltip_display": {
+        "hidden_components": [
+          "jukebox_playable"
+        ]
+      }
+    }
+  }
+}

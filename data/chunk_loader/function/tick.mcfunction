@@ -5,3 +5,5 @@ function chunk_loader:chunk_checker/holding
 function chunk_loader:chunk_checker/replace_used
 function chunk_loader:chunk_loader/animation
 function chunk_loader:chunk_loader/block_state
+function chunk_loader:upgrade/interaction_summon
+function chunk_loader:upgrade/interaction_interacted
