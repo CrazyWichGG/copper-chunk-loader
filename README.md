@@ -3,10 +3,10 @@ Chunk loader data pack that aims to be vanilla survival friendly and to find mor
 This data pack is designed to be as simple as possible, so you can just drop it in your datapacks folder and start using it right away.
 No need to set up some fancy stuff or even type a single command.
 
-_For more information please navigate to [Modrinth](https://modrinth.com/project/copper-chunk-loader)_
+_For more information please navigate to [Modrinth](https://modrinth.com/datapack/copper-chunk-loader)_
 
 ## 📥 How to download?
-You can download the data pack via Modrinth to support me! [Download](https://modrinth.com/project/copper-chunk-loader)
+You can download the data pack via Modrinth to support me! [Download](https://modrinth.com/datapack/copper-chunk-loader)
 
 Or you can download it directly from the GitHub repository as well.
 
