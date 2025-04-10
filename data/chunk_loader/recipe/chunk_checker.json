@@ -21,17 +21,13 @@
       },
       "item_model": "bolt_armor_trim_smithing_template",
       "enchantment_glint_override": true,
-      "item_name": {"text": "Chunk Checker"},
+      "item_name": '{"text": "Chunk Checker"}',
       "rarity": "epic",
       "lore": [
-        [{"text": "Use to check active chunks affected by chunk loader.","color": "white","italic": false}]
+        '[{"text": "Use to check active chunks affected by chunk loader.","color": "white","italic": false}]'
       ],
       "!jukebox_playable": {},
-      "tooltip_display": {
-        "hidden_components": [
-          "jukebox_playable"
-        ]
-      },
+      "hide_additional_tooltip": {},
       "consumable": {
         "animation": "none",
         "consume_seconds": 0,
@@ -46,17 +42,13 @@
           },
           "item_model": "bolt_armor_trim_smithing_template",
           "enchantment_glint_override": true,
-          "item_name": {"text": "Chunk Checker"},
+          "item_name": '{"text": "Chunk Checker"}',
           "rarity": "epic",
           "lore": [
-            [{"text": "Use to check active chunks affected by chunk loader.","color": "white","italic": false}]
+            '[{"text": "Use to check active chunks affected by chunk loader.","color": "white","italic": false}]'
           ],
           "!jukebox_playable": {},
-          "tooltip_display": {
-            "hidden_components": [
-              "jukebox_playable"
-            ]
-          }
+          "hide_additional_tooltip": {}
         }
       }
     }

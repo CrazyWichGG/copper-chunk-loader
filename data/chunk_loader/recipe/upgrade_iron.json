@@ -24,21 +24,17 @@
       },
       "item_model": "iron_ingot",
       "enchantment_glint_override": true,
-      "item_name": {"text": "Tier Upgrade (Iron)"},
+      "item_name": '{"text": "Tier Upgrade (Iron)"}',
       "rarity": "rare",
       "lore": [
-        [{"text": "Tier: ","color": "gray","italic": false}, {"text": "Iron", "color": "white", "italic": false}],
-        [{"text": "Range: ","color": "gray","italic": false}, {"text": "5x5 Chunks", "color": "gray", "italic": false}],
-        [{"text":""}],
-        [{"text": "Press ","color": "gray","italic": false}, {"keybind": "key.use","color": "yellow","italic": false}, {"text": " on Chunk Loader to upgrade.","color": "gray","italic": false}]
+        '[{"text": "Tier: ","color": "gray","italic": false}, {"text": "Iron", "color": "white", "italic": false}]',
+        '[{"text": "Range: ","color": "gray","italic": false}, {"text": "5x5 Chunks", "color": "gray", "italic": false}]',
+        '[{"text":""}]',
+        '[{"text": "Press ","color": "gray","italic": false}, {"keybind": "key.use","color": "yellow","italic": false}, {"text": " on Chunk Loader to upgrade.","color": "gray","italic": false}]'
       ],
       "max_stack_size": 64,
       "!jukebox_playable": {},
-      "tooltip_display": {
-        "hidden_components": [
-          "jukebox_playable"
-        ]
-      }
+      "hide_additional_tooltip": {}
     }
   }
 }

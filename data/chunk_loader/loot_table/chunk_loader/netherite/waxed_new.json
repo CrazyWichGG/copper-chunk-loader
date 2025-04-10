@@ -17,11 +17,11 @@
                 },
                 "item_model": "waxed_copper_grate",
                 "enchantment_glint_override": true,
-                "item_name": {"text": "Waxed Chunk Loader (Netherite)"},
+                "item_name": '{"text": "Waxed Chunk Loader (Netherite)"}',
                 "rarity": "epic",
                 "lore": [
-                  [{"text": "Tier: ","color": "gray","italic": false}, {"text": "Netherite", "color": "light_purple", "italic": false}],
-                  [{"text": "Range: ","color": "gray","italic": false}, {"text": "11x11 Chunks", "color": "gray", "italic": false}]
+                  '[{"text": "Tier: ","color": "gray","italic": false}, {"text": "Netherite", "color": "light_purple", "italic": false}]',
+                  '[{"text": "Range: ","color": "gray","italic": false}, {"text": "11x11 Chunk", "color": "gray", "italic": false}]'
                 ],
                 "damage_resistant": {
                   "types": "#is_fire"
@@ -31,11 +31,11 @@
                   "Invisible": true,
                   "Silent": true,
                   "Fixed": true,
-                  "data": {
-                    "chunk_loader": true,
-                    "chunk_loader_tier": "netherite",
-                    "copper_grate_state": "waxed_new"
-                  }
+                  "Tags": [
+                    "chunk_loader",
+                    "chunk_loader_tier.netherite",
+                    "copper_grate_state.waxed_new"
+                  ]
                 }
               }
             }

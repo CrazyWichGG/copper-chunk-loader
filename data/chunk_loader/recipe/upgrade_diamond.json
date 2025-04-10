@@ -24,21 +24,17 @@
       },
       "item_model": "diamond",
       "enchantment_glint_override": true,
-      "item_name": {"text": "Tier Upgrade (Diamond)"},
+      "item_name": '{"text": "Tier Upgrade (Diamond)"}',
       "rarity": "epic",
       "lore": [
-        [{"text": "Tier: ","color": "gray","italic": false}, {"text": "Diamond", "color": "aqua", "italic": false}],
-        [{"text": "Range: ","color": "gray","italic": false}, {"text": "9x9 Chunks", "color": "gray", "italic": false}],
-        [{"text":""}],
-        [{"text": "Press ","color": "gray","italic": false}, {"keybind": "key.use","color": "yellow","italic": false}, {"text": " on Chunk Loader to upgrade.","color": "gray","italic": false}]
+        '[{"text": "Tier: ","color": "gray","italic": false}, {"text": "Diamond", "color": "aqua", "italic": false}]',
+        '[{"text": "Range: ","color": "gray","italic": false}, {"text": "9x9 Chunks", "color": "gray", "italic": false}]',
+        '[{"text":""}]',
+        '[{"text": "Press ","color": "gray","italic": false}, {"keybind": "key.use","color": "yellow","italic": false}, {"text": " on Chunk Loader to upgrade.","color": "gray","italic": false}]'
       ],
       "max_stack_size": 64,
       "!jukebox_playable": {},
-      "tooltip_display": {
-        "hidden_components": [
-          "jukebox_playable"
-        ]
-      }
+      "hide_additional_tooltip": {}
     }
   }
 }

@@ -17,22 +17,22 @@
                 },
                 "item_model": "waxed_copper_grate",
                 "enchantment_glint_override": true,
-                "item_name": {"text": "Waxed Chunk Loader (Diamond)"},
+                "item_name": '{"text": "Waxed Chunk Loader (Diamond)"}',
                 "rarity": "epic",
                 "lore": [
-                  [{"text": "Tier: ","color": "gray","italic": false}, {"text": "Diamond", "color": "aqua", "italic": false}],
-                  [{"text": "Range: ","color": "gray","italic": false}, {"text": "9x9 Chunks", "color": "gray", "italic": false}]
+                  '[{"text": "Tier: ","color": "gray","italic": false}, {"text": "Diamond", "color": "aqua", "italic": false}]',
+                  '[{"text": "Range: ","color": "gray","italic": false}, {"text": "9x9 Chunk", "color": "gray", "italic": false}]'
                 ],
                 "entity_data": {
                   "id": "glow_item_frame",
                   "Invisible": true,
                   "Silent": true,
                   "Fixed": true,
-                  "data": {
-                    "chunk_loader": true,
-                    "chunk_loader_tier": "diamond",
-                    "copper_grate_state": "waxed_new"
-                  }
+                  "Tags": [
+                    "chunk_loader",
+                    "chunk_loader_tier.diamond",
+                    "copper_grate_state.waxed_new"
+                  ]
                 }
               }
             }
