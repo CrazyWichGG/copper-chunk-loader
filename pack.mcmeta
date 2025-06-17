@@ -1,6 +1,17 @@
 {
   "pack": {
     "pack_format": 71,
-    "description": "§7v1.0.0\n\n§fChunk Loader data pack friendly for vanilla survival\n\n§aCreated by CrazyWichGG"
-  }
+    "description": "§fChunk Loader data pack friendly for vanilla survival\n§aCreated by CrazyWichGG"
+  },
+	"overlays": {
+		"entries": [
+			{
+				"formats": {
+					"min_inclusive": -2147483647,
+					"max_inclusive": 61
+				},
+				"directory": "overlay_61"
+			}
+		]
+	}
 }

@@ -1,0 +1,24 @@
+#interaction on
+# -copper tier
+execute as @e[type=marker,nbt={data:{chunk_loader_marker:1b,chunk_loader_tier:"copper"}}] at @s if entity @a[distance=..6,nbt={SelectedItem:{id:"minecraft:music_disc_11",components:{"minecraft:custom_data":{chunk_loader_upgrade:1b,tiers_usable_on:["copper"]}}}}] unless entity @n[type=interaction,distance=..1,nbt={Tags:["chunk_loader_interaction"]}] run summon interaction ~ ~-.51 ~ {height:1.02,width:1.01,response:1b,Tags:["chunk_loader_interaction","chunk_loader_tier.copper"]}
+# -iron tier
+execute as @e[type=marker,nbt={data:{chunk_loader_marker:1b,chunk_loader_tier:"iron"}}] at @s if entity @a[distance=..6,nbt={SelectedItem:{id:"minecraft:music_disc_11",components:{"minecraft:custom_data":{chunk_loader_upgrade:1b,tiers_usable_on:["iron"]}}}}] unless entity @n[type=interaction,distance=..1,nbt={Tags:["chunk_loader_interaction"]}] run summon interaction ~ ~-.51 ~ {height:1.02,width:1.01,response:1b,Tags:["chunk_loader_interaction","chunk_loader_tier.iron"]}
+# -gold tier
+execute as @e[type=marker,nbt={data:{chunk_loader_marker:1b,chunk_loader_tier:"gold"}}] at @s if entity @a[distance=..6,nbt={SelectedItem:{id:"minecraft:music_disc_11",components:{"minecraft:custom_data":{chunk_loader_upgrade:1b,tiers_usable_on:["gold"]}}}}] unless entity @n[type=interaction,distance=..1,nbt={Tags:["chunk_loader_interaction"]}] run summon interaction ~ ~-.51 ~ {height:1.02,width:1.01,response:1b,Tags:["chunk_loader_interaction","chunk_loader_tier.gold"]}
+# -diamond tier
+execute as @e[type=marker,nbt={data:{chunk_loader_marker:1b,chunk_loader_tier:"diamond"}}] at @s if entity @a[distance=..6,nbt={SelectedItem:{id:"minecraft:music_disc_11",components:{"minecraft:custom_data":{chunk_loader_upgrade:1b,tiers_usable_on:["diamond"]}}}}] unless entity @n[type=interaction,distance=..1,nbt={Tags:["chunk_loader_interaction"]}] run summon interaction ~ ~-.51 ~ {height:1.02,width:1.01,response:1b,Tags:["chunk_loader_interaction","chunk_loader_tier.diamond"]}
+# -netherite tier
+execute as @e[type=marker,nbt={data:{chunk_loader_marker:1b,chunk_loader_tier:"netherite"}}] at @s if entity @a[distance=..6,nbt={SelectedItem:{id:"minecraft:music_disc_11",components:{"minecraft:custom_data":{chunk_loader_upgrade:1b,tiers_usable_on:["netherite"]}}}}] unless entity @n[type=interaction,distance=..1,nbt={Tags:["chunk_loader_interaction"]}] run summon interaction ~ ~-.51 ~ {height:1.02,width:1.01,response:1b,Tags:["chunk_loader_interaction","chunk_loader_tier.netherite"]}
+
+
+#interaction off
+# -copper tier
+execute as @e[type=marker,nbt={data:{chunk_loader_marker:1b,chunk_loader_tier:"copper"}}] at @s unless entity @a[distance=..6,nbt={SelectedItem:{id:"minecraft:music_disc_11",components:{"minecraft:custom_data":{chunk_loader_upgrade:1b,tiers_usable_on:["copper"]}}}}] if entity @n[type=interaction,distance=..1,nbt={Tags:["chunk_loader_interaction"]}] run kill @n[type=interaction,distance=..1,nbt={Tags:["chunk_loader_interaction","chunk_loader_tier.copper"]}]
+# -iron tier
+execute as @e[type=marker,nbt={data:{chunk_loader_marker:1b,chunk_loader_tier:"iron"}}] at @s unless entity @a[distance=..6,nbt={SelectedItem:{id:"minecraft:music_disc_11",components:{"minecraft:custom_data":{chunk_loader_upgrade:1b,tiers_usable_on:["iron"]}}}}] if entity @n[type=interaction,distance=..1,nbt={Tags:["chunk_loader_interaction"]}] run kill @n[type=interaction,distance=..1,nbt={Tags:["chunk_loader_interaction","chunk_loader_tier.iron"]}]
+# -gold tier
+execute as @e[type=marker,nbt={data:{chunk_loader_marker:1b,chunk_loader_tier:"gold"}}] at @s unless entity @a[distance=..6,nbt={SelectedItem:{id:"minecraft:music_disc_11",components:{"minecraft:custom_data":{chunk_loader_upgrade:1b,tiers_usable_on:["gold"]}}}}] if entity @n[type=interaction,distance=..1,nbt={Tags:["chunk_loader_interaction"]}] run kill @n[type=interaction,distance=..1,nbt={Tags:["chunk_loader_interaction","chunk_loader_tier.gold"]}]
+# -diamond tier
+execute as @e[type=marker,nbt={data:{chunk_loader_marker:1b,chunk_loader_tier:"diamond"}}] at @s unless entity @a[distance=..6,nbt={SelectedItem:{id:"minecraft:music_disc_11",components:{"minecraft:custom_data":{chunk_loader_upgrade:1b,tiers_usable_on:["diamond"]}}}}] if entity @n[type=interaction,distance=..1,nbt={Tags:["chunk_loader_interaction"]}] run kill @n[type=interaction,distance=..1,nbt={Tags:["chunk_loader_interaction","chunk_loader_tier.diamond"]}]
+# -netherite tier
+execute as @e[type=marker,nbt={data:{chunk_loader_marker:1b,chunk_loader_tier:"netherite"}}] at @s unless entity @a[distance=..6,nbt={SelectedItem:{id:"minecraft:music_disc_11",components:{"minecraft:custom_data":{chunk_loader_upgrade:1b,tiers_usable_on:["netherite"]}}}}] if entity @n[type=interaction,distance=..1,nbt={Tags:["chunk_loader_interaction"]}] run kill @n[type=interaction,distance=..1,nbt={Tags:["chunk_loader_interaction","chunk_loader_tier.netherite"]}]

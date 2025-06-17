@@ -1,0 +1,56 @@
+{
+  "type": "crafting_shaped",
+  "category": "redstone",
+  "show_notification": true,
+  "pattern": [
+    " I ",
+    "CRC",
+    "CEC"
+  ],
+  "key": {
+    "C": "copper_ingot",
+    "R": "comparator",
+    "E": "ender_pearl",
+    "I": "redstone_torch"
+  },
+  "result": {
+    "id": "music_disc_11",
+    "components": {
+      "custom_data": {
+        "chunk_checker": true
+      },
+      "item_model": "bolt_armor_trim_smithing_template",
+      "enchantment_glint_override": true,
+      "item_name": '{"text": "Chunk Checker"}',
+      "rarity": "epic",
+      "lore": [
+        '[{"text": "Use to check active chunks affected by chunk loader.","color": "white","italic": false}]'
+      ],
+      "!jukebox_playable": {},
+      "hide_additional_tooltip": {},
+      "consumable": {
+        "animation": "none",
+        "consume_seconds": 0,
+        "has_consume_particles": false,
+        "sound": "block.note_block.hat"
+      },
+      "use_remainder": {
+        "id": "music_disc_11",
+        "components": {
+          "custom_data": {
+            "chunk_checker_used": true
+          },
+          "item_model": "bolt_armor_trim_smithing_template",
+          "enchantment_glint_override": true,
+          "item_name": '{"text": "Chunk Checker"}',
+          "rarity": "epic",
+          "lore": [
+            '[{"text": "Use to check active chunks affected by chunk loader.","color": "white","italic": false}]'
+          ],
+          "!jukebox_playable": {},
+          "hide_additional_tooltip": {}
+        }
+      }
+    }
+  }
+}

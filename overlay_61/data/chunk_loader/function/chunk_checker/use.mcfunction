@@ -1,0 +1,4 @@
+advancement revoke @s only chunk_loader:player_use_chunk_checker
+execute as @s if score @s chunk_loader.total_loaded matches 0 run tellraw @s [{"text":"There is no loaded chunk in this dimension!","color":"red"}]
+execute as @s if score @s chunk_loader.total_loaded matches 1 run tellraw @s [{"text":"There is ","color":"green"},{"score":{"name":"@s","objective":"chunk_loader.total_loaded"}},{"text":" loaded chunk in this dimension!","color":"green"}]
+execute as @s if score @s chunk_loader.total_loaded matches 2.. run tellraw @s [{"text":"There are ","color":"green"},{"score":{"name":"@s","objective":"chunk_loader.total_loaded"}},{"text":" loaded chunks in this dimension!","color":"green"}]
