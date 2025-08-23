@@ -1,1 +1,3 @@
-execute as @e[type=glow_item_frame,tag=chunk_loader] at @s run function chunk_loader:chunk_loader/place
+execute as @e[type=glow_item_frame,tag=chunk_loader] at @s if block ~ ~ ~ #chunk_loader:placeable_in run function chunk_loader:chunk_loader/place
+execute as @e[type=glow_item_frame,tag=chunk_loader] at @s unless block ~ ~ ~ #chunk_loader:placeable_in unless predicate chunk_loader:is_in_nether_roof_bedrock run function chunk_loader:chunk_loader/unplace
+execute as @e[type=glow_item_frame,tag=chunk_loader] at @s unless block ~ ~ ~ #chunk_loader:placeable_in if predicate chunk_loader:is_in_nether_roof_bedrock positioned ~ ~-.5 ~ run function chunk_loader:chunk_loader/unplace

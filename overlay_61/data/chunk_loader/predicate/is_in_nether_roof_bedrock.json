@@ -1,0 +1,15 @@
+{
+    "condition": "location_check",
+    "predicate": {
+        "block": {
+            "blocks": "bedrock"
+        },
+        "dimension": "the_nether",
+        "position": {
+            "y": {
+                "min": 122,
+                "max": 128
+            }
+        }
+    }
+}
