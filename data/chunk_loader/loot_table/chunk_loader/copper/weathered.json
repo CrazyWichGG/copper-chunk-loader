@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:glow_item_frame",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "custom_data": {
                   "chunk_loader": true,

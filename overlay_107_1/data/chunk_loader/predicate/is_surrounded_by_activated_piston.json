@@ -1,0 +1,83 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#chunk_loader:piston",
+          "state": {
+            "extended": "true",
+            "facing": "west"
+          }
+        }
+      },
+      "offsetX": 1
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#chunk_loader:piston",
+          "state": {
+            "extended": "true",
+            "facing": "east"
+          }
+        }
+      },
+      "offsetX": -1
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#chunk_loader:piston",
+          "state": {
+            "extended": "true",
+            "facing": "north"
+          }
+        }
+      },
+      "offsetZ": 1
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#chunk_loader:piston",
+          "state": {
+            "extended": "true",
+            "facing": "south"
+          }
+        }
+      },
+      "offsetZ": -1
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#chunk_loader:piston",
+          "state": {
+            "extended": "true",
+            "facing": "down"
+          }
+        }
+      },
+      "offsetY": 1
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#chunk_loader:piston",
+          "state": {
+            "extended": "true",
+            "facing": "up"
+          }
+        }
+      },
+      "offsetY": -1
+    }
+  ]
+}

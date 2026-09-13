@@ -1,8 +1,8 @@
 {
-  "condition": "any_of",
+  "type": "any_of",
   "terms": [
     {
-      "condition": "location_check",
+      "type": "location_check",
       "predicate": {
         "block": {
           "blocks": "piston_head",
@@ -15,7 +15,7 @@
       "offsetX": 1
     },
     {
-      "condition": "location_check",
+      "type": "location_check",
       "predicate": {
         "block": {
           "blocks": "piston_head",
@@ -28,7 +28,7 @@
       "offsetX": -1
     },
     {
-      "condition": "location_check",
+      "type": "location_check",
       "predicate": {
         "block": {
           "blocks": "piston_head",
@@ -41,7 +41,7 @@
       "offsetZ": 1
     },
     {
-      "condition": "location_check",
+      "type": "location_check",
       "predicate": {
         "block": {
           "blocks": "piston_head",
@@ -54,7 +54,7 @@
       "offsetZ": -1
     },
     {
-      "condition": "location_check",
+      "type": "location_check",
       "predicate": {
         "block": {
           "blocks": "piston_head",
@@ -67,7 +67,7 @@
       "offsetY": 1
     },
     {
-      "condition": "location_check",
+      "type": "location_check",
       "predicate": {
         "block": {
           "blocks": "piston_head",

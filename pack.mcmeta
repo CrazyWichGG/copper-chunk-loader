@@ -1,16 +1,27 @@
 {
   "pack": {
-    "pack_format": 81,
-    "description": "§fChunk Loader data pack friendly for vanilla survival\n§aCreated by CrazyWichGG"
+    "pack_format": 121,
+    "description": "§fChunk Loader data pack friendly for vanilla survival\n§aCreated by CrazyWichGG",
+	"min_format": 121,
+	"max_format": 2147483647
   },
 	"overlays": {
 		"entries": [
 			{
 				"formats": {
-					"min_inclusive": -2147483647,
+					"min_inclusive": 57,
 					"max_inclusive": 61
 				},
 				"directory": "overlay_61"
+			},
+			{
+				"min_format": 71,
+				"max_format": [107, 1],
+				"formats": {
+					"min_inclusive": 71,
+					"max_inclusive": 107
+				},
+				"directory": "overlay_107_1"
 			}
 		]
 	}

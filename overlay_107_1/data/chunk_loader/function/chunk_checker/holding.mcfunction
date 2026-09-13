@@ -1,0 +1,2 @@
+execute as @a at @s if items entity @s weapon.* *[custom_data~{chunk_checker:1b}] if score @s chunk_loader.is_loaded matches 0 run title @s actionbar [{"text":"This chunk is not loaded!","color":"red"}]
+execute as @a at @s if items entity @s weapon.* *[custom_data~{chunk_checker:1b}] if score @s chunk_loader.is_loaded matches 1 run title @s actionbar [{"text":"This chunk is loaded!","color":"green"}]

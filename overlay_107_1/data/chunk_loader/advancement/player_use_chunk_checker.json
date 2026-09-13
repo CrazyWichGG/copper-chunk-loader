@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "player_use_chunk_checker": {
+      "trigger": "consume_item",
+      "conditions": {
+        "item": {
+          "items": "music_disc_11",
+          "predicates": {
+            "custom_data": {
+              "chunk_checker": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "chunk_loader:chunk_checker/use"
+  }
+}

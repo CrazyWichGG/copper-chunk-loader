@@ -6,9 +6,9 @@
         {
           "type": "item",
           "name": "music_disc_11",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "custom_data": {
                   "chunk_loader_upgrade": true,

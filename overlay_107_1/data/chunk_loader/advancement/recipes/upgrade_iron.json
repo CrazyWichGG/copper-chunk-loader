@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "has_items": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "copper_ingot",
+              "iron_block",
+              "ender_pearl",
+              "paper"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "recipe_unlocked",
+      "conditions": {
+        "recipe": "chunk_loader:upgrade_iron"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_items",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chunk_loader:upgrade_iron"
+    ]
+  }
+}

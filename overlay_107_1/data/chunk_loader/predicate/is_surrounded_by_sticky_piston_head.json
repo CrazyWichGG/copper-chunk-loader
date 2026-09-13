@@ -1,0 +1,83 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "piston_head",
+          "state": {
+            "facing": "west",
+            "type": "sticky"
+          }
+        }
+      },
+      "offsetX": 1
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "piston_head",
+          "state": {
+            "facing": "east",
+            "type": "sticky"
+          }
+        }
+      },
+      "offsetX": -1
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "piston_head",
+          "state": {
+            "facing": "north",
+            "type": "sticky"
+          }
+        }
+      },
+      "offsetZ": 1
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "piston_head",
+          "state": {
+            "facing": "south",
+            "type": "sticky"
+          }
+        }
+      },
+      "offsetZ": -1
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "piston_head",
+          "state": {
+            "facing": "down",
+            "type": "sticky"
+          }
+        }
+      },
+      "offsetY": 1
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "piston_head",
+          "state": {
+            "facing": "up",
+            "type": "sticky"
+          }
+        }
+      },
+      "offsetY": -1
+    }
+  ]
+}
